@@ -1,0 +1,53 @@
+.contentTabs{
+    font-size: 1.3em;
+    height: 60vh;
+}
+.contentTabList{
+    list-style-type: none;
+    padding: 4px;
+    display: flex;
+    margin: 0px;
+}
+
+.tab{
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 8px;
+    user-select: none; 
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 0  0   1em #ccc;
+}
+
+.tab:focus{
+    outline: none;
+}
+
+.tab.is-selected{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 1px solid white;
+}
+
+/*Estilização dos paineis*/
+.desativo{
+    display: none;
+}
+
+.ativo{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.contentRep{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* min-width: 250px; */
+}
+

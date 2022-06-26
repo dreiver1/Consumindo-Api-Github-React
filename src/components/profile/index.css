@@ -1,0 +1,66 @@
+/*######################*/
+.contentProfile{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8e4c1;
+    border-radius: 16px;
+    margin: 1%;
+}
+
+.contentIMG{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 1%;
+}
+
+/*######################*/
+.contentUser{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+.contentUserName{
+    display: flex;
+    flex-direction: column;
+}
+.contentUserName h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+/* content user ####################*/
+.contentuserGeneric{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contentuserGeneric a{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.contentuserGeneric h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 4px;
+}
+
+.contentuserGeneric span{
+    margin: 8px;
+}
+/*content user ######################*/
+
+.contentUserAcount div{
+    margin: 5px;
+    text-align: center;
+}
+
+.contentUserAcount{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
